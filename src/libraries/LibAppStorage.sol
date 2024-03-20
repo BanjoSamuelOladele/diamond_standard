@@ -27,5 +27,4 @@ library LibAppStorage {
         uint8 decimal;
         address owner;
 	}
-
 }
