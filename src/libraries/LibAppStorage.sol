@@ -14,7 +14,7 @@ library LibAppStorage {
     struct StakeStorage {
         address erc20StakeToken;
         address erc20RewardToken;
-        uint8 rewardRate = ;
+        uint8 rewardRate;
         mapping(address => Stake) stakes;
     }
 
