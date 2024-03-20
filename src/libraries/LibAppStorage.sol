@@ -18,7 +18,7 @@ library LibAppStorage {
         mapping(address => Stake) stakes;
     }
 
-    struct StakeToken{
+    struct Token{
 		mapping(address => uint256) balances;
         mapping(address => mapping(address => uint256)) allowances;
         uint256 totalSupply;
@@ -27,4 +27,5 @@ library LibAppStorage {
         uint8 decimal;
         address owner;
 	}
+
 }
